@@ -1,0 +1,18 @@
+# DEVELOPER BLOG AUTHORS
+- name: ryanrutan
+  display_name: Ryan Rutan
+  title: Sr. Director of Technology
+  url: https://www.linkedin.com/in/ryanrutan
+  avatar: /assets/img/avatars/ryanrutan.png
+  twitter: ryanrutan
+  linkedin: ryanrutan
+  github: ryanrutan
+  company_name: Paladin Group
+  company_url: https://www.paladingroup.com
+
+# DO NOT TOUCH
+- name: generic
+  display_name: Paladin Developers
+  avatar: /assets/img/avatars/generic.jpg
+  company_name: Paladin Group
+  company_url: https://www.paladingroup.com

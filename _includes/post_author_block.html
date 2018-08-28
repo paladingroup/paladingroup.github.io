@@ -1,0 +1,23 @@
+<div align="right" class="post-author-summary">
+  {% for author in site.data.authors %}
+      {% if page.author == author.name %}
+        <img src="{{ author.avatar }}" />
+        <div class="author-name">
+          {% if author.url != "" And author.url != nil %}
+          <a class="author-url" href="{{ author.url }}">{{ author.display_name }}</a>
+          {% else %}
+          <span class="author-name">{{ author.display_name }}</span>
+          {% endif %}
+        </div>
+        {% if author.title != "" And author.title != nil %}
+        <div class="author-title">{{ author.title }}</div>
+        {% endif %}
+        {% if author.company_url != "" And author.company_url != nil And author.company_name != "" And author.company_name != nil %}
+        <div class="author-website">
+          <a href="{{ author.company_url }}">{{ author.company_name }}</a>
+        </div>
+        {% endif %}
+        <!-- TODO: ADD IN SMALL SOCIAL LINKS -->
+      {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,49 @@
+{% if site.theme_settings.footer_text %}
+<footer class="site-footer">
+  <div class="paladin-footer">
+    <div class="footer-nav">
+      <div class="footer-column footer-column-first">
+        <img class="footer-paladin-logo" src="/assets/img/paladin-web-logo-white.png" />
+        <p>
+          444 South Cedros Ave</br>
+          Suite 189</br>
+          Solana Beach, CA 92075
+        </p>
+        <p>P: <a href="tel:8589470101">858.947.0101</a></p>
+      </div>
+      <div class="footer-column">
+        <div class="footer-header">SERVICES</div>
+        <ul class="footer-links">
+          <li><a href="https://paladingroup.com/services/advisory-services/">Advisory</a></li>
+          <li><a href="https://paladingroup.com/services/implementation-services/">Implementation</a></li>
+          <li><a href="https://paladingroup.com/services/custom-development/">Custom Development</a></li>
+          <li><a href="https://paladingroup.com/services/change-management/">Change Management</a></li>
+          <li><a href="https://paladingroup.com/services/managed-services/">Managed Services</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <div class="footer-header">SOLUTIONS</div>
+        <ul class="footer-links">
+          <li><a href="https://paladingroup.com/solutions/jive-to-salesforce">Jive to Salesforce</a></li>
+          <li><a href="https://paladingroup.com/solutions/smart-assistant">Smart Assistant</a></li>
+          <li><a href="https://paladingroup.com/solutions/youtube-container">YouTube Container</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <div class="footer-header">LEGAL</div>
+        <ul class="footer-links">
+          <li><a href="https://paladingroup.com/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="https://paladingroup.com/terms-conditions/">Terms &amp; Conditions</a></li>
+          <li><a href="https://paladingroup.com/eula/">EULA</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-icons">
+        <ul>
+        <!-- Social icons from Font Awesome, if enabled -->
+        {% include icons.html %}
+        </ul>
+    </div>
+  </div>
+</footer>
+{% endif %}
