@@ -37,6 +37,11 @@ layout: default
             </h1>
             <p class="meta">
               {{ post.date | date: "%B %-d, %Y" }}
+              {% for author in site.data.authors %}
+                {% if post.author == author.name %}
+                  - {{ author.display_name }}
+                {% endif %}
+              {% endfor %}
             </p>
           </header>
           <div class="excerpt">
