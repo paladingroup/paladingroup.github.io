@@ -1,20 +1,22 @@
 ---
 layout: default
 comments: true
+bootstrap: true
 ---
-<header id="main" class="call-out" style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
+<header id="main" class="call-out">
   <h1 id="{{ page.title | cgi_escape }}" class="title">{{ page.title }}</h1>
   <p class="meta">
   {{ page.date | date: "%B %-d, %Y" }}
   </p>
 </header>
+
 <!-- Tag list -->
 {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
 {% include tags_list.html tags=tag_list %}
 
-<article {% if page.feature-img %}class="feature-image"{% endif %}>
+<article>
   <section class="post-content">
-
+  {% include post_author_block.html %}
   {% if page.bootstrap %}
   <div class="bootstrap-iso">
   {% endif %}
@@ -22,7 +24,6 @@ comments: true
   {% if page.bootstrap %}
   </div>
   {% endif %}
-    {% include post_author_block.html %}
   </section>
 
   <footer>

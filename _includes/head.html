@@ -1,15 +1,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    
+
     <!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
     <script defer=true src="{{ site.baseurl }}/assets/js/main.min.js"></script>
-    
+
     <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
     <!--Favicon-->
-    <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}-32x32.png" type="image/x-icon">
+    <link rel="icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}-32x32.png" sizes="32x32">
+    <link rel="icon" href="{{ site.baseurl }}/{{ site.theme_settings.favicon }}-192x192.png" sizes="192x192">
 
     <!-- Canonical -->
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -20,7 +22,7 @@
     <!-- Font Awesome -->
     <!-- <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/vendor/font-awesome.min.css">
-    
+
     {% if page.bootstrap %}
     <!-- Bootstrap-3.3.7 isolation CSS -->
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/vendor/bootstrap-iso.min.css">
@@ -34,7 +36,7 @@
 
     <!-- Google Fonts -->
     {% if site.theme_settings.google_fonts %}
-    <link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css"> 
+    <link href="//fonts.googleapis.com/css?family={{ site.theme_settings.google_fonts }}" rel="stylesheet" type="text/css">
     {% endif %}
 
     <!-- KaTeX 0.8.3 -->
@@ -64,7 +66,7 @@
 
     </script>
     {% endif %}
-    
+
     <!-- seo tags -->
     {% seo %}
     <!-- Manual seo tags -->

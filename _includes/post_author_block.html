@@ -17,7 +17,33 @@
           <a href="{{ author.company_url }}">{{ author.company_name }}</a>
         </div>
         {% endif %}
-        <!-- TODO: ADD IN SMALL SOCIAL LINKS -->
+        {% if author.twitter OR author.linkedin Or author.github %}
+        <div class="author-social-buttons">
+          <ul class="share-buttons">
+            {% if author.twitter %}
+            <li>
+                <a href="https://twitter.com/{{ author.twitter }}" target="_blank" title="{{ author.display_name }} - @{{ author.twitter }}">
+                  <i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if author.linkedin %}
+            <li>
+                <a href="http://www.linkedin.com/in/{{ author.linkedin }}" target="_blank" title="{{ author.display_name }} - {{ author.linkedin }}">
+                  <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+            {% endif %}
+            {% if author.github %}
+            <li>
+                <a href="https://github.com/{{ author.github }}" target="_blank" title="{{ author.display_name }} - {{ author.github }}">
+                  <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+                </a>
+            </li>
+            {% endif %}
+          </ul>
+        </div>
+        {% endif %}
       {% endif %}
   {% endfor %}
 </div>

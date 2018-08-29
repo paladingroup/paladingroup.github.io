@@ -9,7 +9,7 @@ theme_settings:
   # Meta
   title: Developer Blog # blog's title
   avatar: assets/img/paladin-developer-logo.png
-  favicon: assets/favicon.ico
+  favicon: assets/img/favicon
   gravatar: # Email MD5 hash
 
   # Header and footer text

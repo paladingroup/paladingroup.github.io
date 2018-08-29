@@ -6,8 +6,8 @@
 .call-out { background-color: #087c9e; padding: 12px 32px 32px 32px; }
 footer.site-footer { margin-top: 32px; background-color: #4e6571; }
 header.call-out p.meta { color: #cecece; }
-.post-author-summary { float: right; width: 220px; margin: 0px 0px 16px 16px; }
-.post-author-summary img { border: 0px; width: 200px; padding: 0px; }
+.post-author-summary { float: right; width: 180px; margin: 0px 0px 8px 8px; }
+.post-author-summary img { border: 0px; width: 140px; padding: 0px; }
 .post-author-summary { font-size: .6em; text-align: right; }
 .post-author-summary .author-name .author-url, .post-author-details .author-name { font-size: 1.8em; }
 .footer-column { float: left; text-align: left; width: 200px; font-size: .7em; color: white; left: 12px; }
@@ -23,3 +23,10 @@ header.call-out p.meta { color: #cecece; }
 .share-buttons i.fa-2x { padding: 0px 8px; }
 .tag-list { display: inline-block; margin: 8px 0px; width: 100%; text-align: center; padding-bottom: 0px; }
 article { padding-top: 3%; }
+img.embed-left { float: left; margin: 0px 16px 16px 0px; padding: 0px; }
+img.embed-right { float: right; margin: 0px 0px 16px 16px;  padding: 0px; }
+.table-full { display: table; }
+table.table thead tr { background-color: #12b9e2; color: white; }
+table.table thead tr th { text-align: center; }
+div.highlight pre { background-color: #6d6d6d; }
+.author-social-buttons ul.share-buttons { text-align: right; }
