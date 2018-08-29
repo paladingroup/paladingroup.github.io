@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction to Igloo Widget Development
-tags: [Igloo, Widgets, JavaScript, API, Technology]
+tags: [Igloo, Widgets, JavaScript, API, Technology, Tips-Tricks]
 categories:
   - Igloo
 feature-img: "assets/img/posts/igloo/intro-to-igloo-widget-development.png"
@@ -303,7 +303,7 @@ Hopefully some of these ideas spur similar innovation on your end to work the wa
 # Closing Thoughts
 In short, Igloo Widget Development can be quite easy given the way the platform is designed.  There are a lot of quick wins that can be made with very little effort which is great for the end-user efficiently getting the experiences they want for their digital workplace.  When it comes to developing enterprise grade integrations, you will most definitely require some form of middleware and authentication model that can layer atop Igloo (and/or leverage frameworks provided by other solutions) to properly secure the identity context, but that isn't the end of the world given that Igloo has plenty of off-the-shelf integrations for the usual enterprise suspects.  
 
-I hope these ramblings about my first experiences with Igloo Widget development have been helpful.  If you would like to reach out to ask questions and/or contract Paladin to design some Custom Integration Widgets for your Igloo instance, just let me know.  <strong><i class="fa fa-smile-o"></i></strong> 
+I hope these ramblings about my first experiences with Igloo Widget development have been helpful.  If you would like to reach out to ask questions and/or contract Paladin to design some Custom Integration Widgets for your Igloo instance, just let me know.  <strong><i class="fa fa-smile-o"></i></strong>
 
 You can connect with me on the [Igloo Developer Community](https://customercare.igloosoftware.com/.profile/rrutan2), use the *Discus* comments below or drop me an <a href="mailto:ryan.rutna@paladingroup.com" title="Ryan Rutan"><i class="fa fa-envelope"></i> email</a>.
 
