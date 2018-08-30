@@ -268,6 +268,10 @@ This solution was pretty slick, and it's what I use as my go-to environment for 
 
 To setup, I simply **npm install** a module to my project and edit the configuration file accordingly.  To iterate, I simply need to save and refresh the browser window.  When I'm ready to deploy to Azure Instance, I can use the standard [ig-deploy](https://www.npmjs.com/package/@igloosoftware/ig-deploy) tool to push the changes.
 
+<div class="alert alert-info" role="alert">
+<strong>UPDATE:</strong> Recently learned about the <a style="color: orange;" href="https://www.npmjs.com/package/@igloosoftware/ig-proxy">ig-proxy</a> package, which apparently does much of the same stuff that I just described above.  I haven't played with this yet, but definitely worth taking a look as this (on the surface) appears to be very inline with benefits I outlined.
+</div>
+
 <table width="100%" class="table table-responsive table-full ">
   <thead class="thead-light">
   <tr>
