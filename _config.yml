@@ -1,15 +1,15 @@
 # SITE CONFIGURATION
 baseurl: ""
 url: "https://paladingroup.github.io"
-title: Paladin Group - Developer Blog # site's title
+title: Paladin Developer Blog # site's title
 description: "Technology.  Innovation.  Value." # used by search engines
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
   title: Developer Blog # blog's title
-  avatar: assets/img/paladin-developer-logo.png
-  favicon: assets/img/favicon
+  avatar: /assets/img/paladin-developer-logo.png
+  favicon: /assets/img/favicon
   gravatar: # Email MD5 hash
 
   # Header and footer text
@@ -92,6 +92,7 @@ theme_settings:
   # Post navigation
   post_navigation: true
 
+title-separator: "-"
 
 # PAGINATION
 paginate: 5

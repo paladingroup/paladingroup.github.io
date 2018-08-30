@@ -4,8 +4,8 @@ title: Introduction to Igloo Widget Development
 tags: [Igloo, Widgets, JavaScript, API, Technology, Tips-Tricks]
 categories:
   - Igloo
-feature-img: "assets/img/posts/igloo/intro-to-igloo-widget-development.png"
-thumbnail: "assets/img/posts/igloo/intro-to-igloo-widget-development.png"
+feature-img: "/assets/img/posts/igloo/intro-to-igloo-widget-development.png"
+thumbnail: "/assets/img/posts/igloo/intro-to-igloo-widget-development.png"
 #excerpt_separator: <!--more-->
 #date: 27 September 2015
 bootstrap: true
